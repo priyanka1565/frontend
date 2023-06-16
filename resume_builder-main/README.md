@@ -1,6 +1,6 @@
 # Resume Builder
 
-A simple WebApp to create minimal resume.
+A simple WebApplication  to create  resume.
 
 ## How to run
 

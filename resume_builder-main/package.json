@@ -1,5 +1,6 @@
 {
   "name": "resume_builder",
+  "author":"priyanka_ingle",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
