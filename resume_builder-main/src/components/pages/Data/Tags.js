@@ -1,6 +1,6 @@
 import React from "react";
 import { WithContext as ReactTags } from "react-tag-input";
-import "./Taggit.css";
+import "./Tags.css"
 import suggestions from "./Data";
 
 const KeyCodes = {

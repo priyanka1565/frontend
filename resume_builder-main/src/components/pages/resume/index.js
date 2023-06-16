@@ -2,7 +2,7 @@ import "./resume.css";
 import { React } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { reset } from "../../store/profileStore"; 
+import { reset } from "../../../store/profileStore";
 
 const Resume = () => {
   /**

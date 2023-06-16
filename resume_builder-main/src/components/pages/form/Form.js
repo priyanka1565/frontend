@@ -1,7 +1,7 @@
 import "./Form.css";
 import { React, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import Taggit from "../taggit/Taggit";
+import Taggit from "../Data/Tags";
 import { update } from "../../../store/profileStore";
 import { useHistory } from "react-router-dom";
 

@@ -13,11 +13,6 @@ const defaultState = {
   exInput: [{ Company: "", Year: "", Designation: "" }],
 };
 
-/**
- * ACTIONS
- * @param {*} state
- * @returns
- */
 
 export function update(state) {
   return {
@@ -32,13 +27,6 @@ export function reset() {
     defaultState,
   };
 }
-
-/**
- * REDUCERS
- * @param {*} state
- * @param {*} action
- * @returns
- */
 
 function profileReducer(state = defaultState, action) {
   switch (action.type) {

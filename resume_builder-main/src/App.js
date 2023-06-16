@@ -1,9 +1,10 @@
 import React from "react";
-import LandingPage from "./containers/LandingPage";
+
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import FormPage from "./containers/CreateForm";
-import Resume from "./components/resume";
+import LandingPage from "./components/containers/LandingPage";
+import FormPage from "./components/containers/CreateForm";
+import Resume from "./components/pages/resume";
 
 const App = () => {
   return (

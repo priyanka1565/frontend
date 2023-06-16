@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../components/resume";
+import Resume from "../pages/resume";
 const ViewResume = () => {
   return <Resume />;
 };
