@@ -15,4 +15,7 @@ ReactJs, Bootstrap4, Redux.
 
 # Live Demo
 
+ ## Netlify Link : 
+ resume-building-application.netlify.app/
+
 
