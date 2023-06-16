@@ -28,10 +28,6 @@ const Resume = () => {
     history.push("/");
   };
 
-  /**
-   * return JSX
-   */
-
   return (
     <>
       <div className="container">
@@ -39,12 +35,41 @@ const Resume = () => {
         <br />
 
         <form>
-          <h2>{state.form.name}</h2>
-          <span>{state.form.email}</span>
+          <h4 style={{
+            fontWeight: "500",
+            fontFamily: "sans-serif",
+            font: "bold",
+            marginBottom:"5px"
+          }}>Name</h4>
+          <label>{state.form.name}</label>
+          <h4 style={{
+            fontWeight: "500",
+            fontFamily: "sans-serif",
+            font: "bold",
+            marginTop:"10px"
+          }}
+          >Email</h4>
+          <label>{state.form.email}</label>
           <br />
-          <span>{state.form.mobile}</span>
+          <h4 style={{
+            fontWeight: "500",
+            fontFamily: "sans-serif",
+            font: "bold",
+             marginTop:"10px"
+          }}
+          >Phone</h4>
+          <label style={{
+           
+          }}>{state.form.mobile}</label>
           <br />
-          <span>{state.form.address}</span>
+          <h4 style={{
+            fontWeight: "500",
+            fontFamily: "sans-serif",
+            font: "bold",
+             marginTop:"10px"
+          }}
+          >Address</h4>
+          <label>{state.form.address}</label>
           <br />
           <hr />
 
